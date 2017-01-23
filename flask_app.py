@@ -14,7 +14,9 @@ def index():
 
 @app.route("/atrain/")
 def atrain():
-	return render_template("atrain.html")
+	return render_template("atrain.html",
+		banana='Jeremiah')
+	print 'rendered a thing'
 
 
 if __name__ = '__main__':
