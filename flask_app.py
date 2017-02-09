@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config["DEBUG"] = True # what does this do?
 # dialect+driver://username:password@host:port/database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://ianwright:sbdbpw#2@ianwright.mysql.pythonanywhere-services.com:3306/ianwright$viznyc_atrain'
+
 #app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 db = SQLAlchemy(app)
