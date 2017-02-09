@@ -1,0 +1,3 @@
+
+- add another supercategory level to the categories table (asia vs. europe)
+
